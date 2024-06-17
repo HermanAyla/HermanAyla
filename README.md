@@ -1,25 +1,3 @@
- <style>
-        /* Basic CSS for styling */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-        h1, h2, p {
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
 <body>
     <div class="container">
         <header>
@@ -41,15 +19,4 @@
             </ul>
         </section>
     </div>
-
-    <script>
-        // Example of JavaScript animation (you can add more complex animations here)
-        const header = document.querySelector('header h1');
-        header.addEventListener('mouseover', function() {
-            header.style.color = 'blue';
-        });
-        header.addEventListener('mouseout', function() {
-            header.style.color = 'black';
-        });
-    </script>
 </body>
